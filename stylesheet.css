@@ -155,7 +155,7 @@ h3 {
 .quote .width {
     flex-direction: column;
     width: 815px;
-    padding: 80px 100px;
+    padding: 100px 100px;
 }
 
 .quote q {
@@ -178,7 +178,7 @@ h3 {
 .signup .width {
     background-color: #3882F6;
     width: 800px;
-    margin: 40px 100px;
+    margin: 80px 100px;
     padding: 40px 100px;
     border-radius: 8px;
     justify-content: space-between;
