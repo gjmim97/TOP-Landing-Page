@@ -9,13 +9,12 @@ body {
     display: flex;
     align-items: center;
     width: 1000px;
-    padding: 0px 100px;
+    padding: 40px 100px;
 }
 
 .full-width-container {
     display: flex;
     justify-content: center;
-    padding: 40px 0;
     flex: 0 0 auto;
 }
 
@@ -25,12 +24,10 @@ header {
     background-color: #1F2937;
 }
 
-header.full-width-container {
-    padding-top:0px;
-}
 
 header .width {
     justify-content: space-between;
+    padding: 0px 100px 30px 100px;
 }
 
 h4 {
@@ -57,7 +54,7 @@ a {
 
 .intro {
     background-color: #1F2937;
-    padding: 0px 0px 100px 0px;
+    padding: 0px 0px 50px 0px;
 }
 
 .intro .width {
@@ -107,6 +104,14 @@ a {
 }
 
 /* information section */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 .information h3 { 
     margin-top:0;
