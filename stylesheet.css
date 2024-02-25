@@ -15,13 +15,14 @@ body {
 .full-width-container {
     display: flex;
     justify-content: center;
-    flex: 0 0 0;
+    flex: 0 0 auto;
 }
 
 /* header section */
 
 header {
     background-color: #1F2937;
+    padding-bottom: 40px;
 }
 
 header .width {
@@ -101,13 +102,6 @@ a {
     font-weight: bold;
     border: 0px;
 }
-
-.blue {}
-
-.right {}
-
-.placeholder {}
-
 
 
 .information h3 { 
