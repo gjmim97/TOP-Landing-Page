@@ -27,7 +27,7 @@ header {
 
 header .width {
     justify-content: space-between;
-    padding: 0px 100px 30px 100px;
+    padding: 0 100px 30px 100px;
 }
 
 h4 {
@@ -54,12 +54,12 @@ a {
 
 .intro {
     background-color: #1F2937;
-    padding: 0px 0px 50px 0px;
 }
 
 .intro .width {
     justify-content: space-between;
     align-items: flex-start;
+    padding: 40px 100px 100px 100px;
 }
 
 .intro .left {
@@ -87,7 +87,7 @@ a {
     box-sizing: border-box;
     background-color:#80868d;
     flex-basis:500px;
-    height: 220px;
+    min-height:220px
 }
 
 .placeholder {
@@ -110,6 +110,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 40px 100px 80px 100px;
 }
 
 h3 { 
@@ -120,8 +121,8 @@ h3 {
 
 .container {
     display: flex;
-    margin-bottom: 40px;
-    gap: 60px;
+    justify-content: space-around;
+    width:100%
 }
  
 .items {
@@ -153,6 +154,7 @@ h3 {
 .quote .width {
     flex-direction: column;
     width: 815px;
+    padding: 80px 100px;
 }
 
 .quote q {
@@ -161,7 +163,6 @@ h3 {
     font-weight: 100;
     color:#1F2937;
     quotes: none;
-    padding-top: 40px;
 }
 
 .quote cite {
