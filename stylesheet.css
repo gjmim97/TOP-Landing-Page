@@ -58,7 +58,7 @@ a {
 
 .intro .width {
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: stretch;
     padding: 40px 100px 100px 100px;
 }
 
